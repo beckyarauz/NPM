@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+
+  
+
+
+body{
+
+}
+h1,h2,h3,h4{
+  letter-spacing: 1px;
+  font-family:Source Sans Pro, monospace;
+}
+
+p,li,ul, a{
+   font-family:Open Sans,monospace;
+}
+
+h1{
+  font-weight:400;
+  font-size:2.5em;
+
+}
+h2{
+  font-weight:400;
+  font-size:1.7em;
+}
+
+h3{
+  font-size:1em;
+}
+
+a{
+  text-decoration:none;
+  color: rgba(255,255,255,0.8);
+}
+
+a:hover{
+  text-decoration:none;
+  color:white;
+}
+
+select {
+  display:none;
+}
+
+button{
+    border: none;
+    border-radius:25px;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+  font-weight:bold;
+}
+
+.navigation {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 2px 30px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  font-size:0.8em;
+}
+
+.top-left{
+  diplay:flex;
+}
+
+.heart{
+  display:inline-block;
+  margin-right:20px;
+  font-size:1.5em;
+  
+}
+
+.acronym{
+  display:inline-block;
+}
+
+.navigation ul{
+  diplay:flex;
+}
+
+.navigation li{
+  display:inline-block;
+  margin:0 5px;
+  list-style-type:none;
+}
+
+.header{
+  background-color:rgb(32, 101, 136);
+  background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+  background-size:cover;
+  color:white;
+  height:80vh;
+  min-height:545px;
+}
+
+
+.logo-search{
+  height:50px;
+  padding: 5px 10px;
+  display:flex;
+  align-items:center;
+}
+
+.npm-logo img{
+  width:100px;
+}
+
+
+.bear img{
+  height:50px;
+
+}
+
+.search{
+  flex:1;
+  display:flex;
+  padding:0 5px;
+  height:40px;
+}
+
+#SearchInput{
+  background-color:rgb(31, 82, 111);
+  border:1px solid rgba(255,255,255,0.4);
+  color:white;
+  padding-left:10px;
+  flex:1;
+  
+}
+.signup{
+  font-size:0.8em;
+  padding:0 5px;
+}
+.npm-content{
+  margin-top:10%;
+  margin-left:5%;
+}
+
+.header-text{
+  width:400px;
+  margin-bottom:50px;
+}
+
+#signup{
+  background-color:rgb(240, 146, 51);
+}
+
+.collaboration{
+  background-color:rgb(39, 53, 71);
+  color:white;
+  padding:30px;
+  /*height:400px;*/
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.collaboration img{
+  width:400px;
+}
+.collab-text{
+  width:450px;
+  margin-left:50px;
+}
+.collab-text li{
+  line-height:2.5;
+}
+
+.orgs-button{
+  background-color:rgb(203, 56, 55);
+}
+
+.whatnpm{
+  background:url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+  background-size:cover;
+  height:400px;
+  padding:20px;
+  color:white;
+  display:flex;
+  align-items:center;
+}
+
+.what-content{
+  width:300px;
+  margin-left:10%;
+}
+
+
+.install-btn{
+  background-color: rgb(49, 68, 88);
+}
+
+.functions{
+  background-color:white;
+  display:flex;
+  justify-contents:center;
+  flex-direction:column;
+  padding:30px;
+}
+
+.functions a{
+  color:rgb(208, 74, 73);
+}
+
+.functions p{
+  color: rgb(135, 145, 156);
+}
+
+.functions h1,h3{
+  color:rgb(83, 88, 98);
+}
+
+.func-text{
+  text-align:center;
+}
+
+.asides{
+  margin:20px 0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.functions aside{
+  text-align:center;
+  width:250px;
+  margin:0 30px;
+}
+
+span{
+  color:red;
+}
+
+
+@media (max-width:750px){
+  .navigation{
+    height:auto;
+    display:flex;
+    flex-direction:column;
+  }
+}
+
+@media (max-width:520px){
+  .navigation{
+    height:auto;
+
+  }
+  
+  select{
+    display:block;
+    border-radius:2px;
+    background-color:red;
+    color:white;
+    border: none;
+    padding:3px;
+    margin-bottom:15px;
+  }
+  .top-links{
+    display:none;
+  }
+}
